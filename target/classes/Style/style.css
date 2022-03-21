@@ -1,0 +1,39 @@
+.vbox{
+    -fx-pref-height: 800;
+    -fx-background-image :url(/wood.jpeg);
+}
+.vb{
+	-fx-border-color: green;
+	
+}
+.hb{
+	-fx-border-width:4 ;
+}
+.hello{
+    -fx-font: 30px  Verdana ;
+    -fx-font-weight : bold
+    
+}
+.hello1{
+    -fx-font: 15px  Tahoma ;
+    -fx-font-weight : bold
+    
+}
+.te{
+    -fx-padding: 30 0 0 0;
+}
+.fo{
+    -fx-background-insets: 0 0 0 20;
+}
+.fi{
+    -fx-padding:0 0 10 0 ; 
+}
+.order_text{
+    -fx-pref-height: 200px;
+    -fx-max-width: 200px;
+}
+
+button:disabled,
+.dis:disabled{
+    
+}

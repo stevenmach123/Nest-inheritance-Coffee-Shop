@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: CoffeeDecoratorTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! - in CoffeeDecoratorTest
+Ver2_2Top_2No  Time elapsed: 0.035 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4.6> but was: <4.6000000000000005>
+	at CoffeeDecoratorTest.Ver2_2Top_2No(CoffeeDecoratorTest.java:100)
+
+Ver1_2Top_2No  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4.4> but was: <4.3999999999999995>
+	at CoffeeDecoratorTest.Ver1_2Top_2No(CoffeeDecoratorTest.java:93)
+

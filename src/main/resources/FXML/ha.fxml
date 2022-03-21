@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="root" nodeOrientation="LEFT_TO_RIGHT" style="-fx-translate-x: 12px;" styleClass="vbox" stylesheets="@../Style/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyController">
+	<!-- TODO Add Nodes -->
+	
+	<Text styleClass="hello">  WELCOME TO BLACKCOFFE SHOP! </Text>
+	<Text styleClass="hello1">  LEAVE BLANK WHEN NO NEED, AND NO SPACE.THANK! </Text>
+	  
+	  
+	 
+	<Label styleClass="te" text="FLAVOR" /> 
+	
+	<HBox styleClass="fi">
+		     
+  		
+		<Button fx:id="flavor1" onAction="#fla1" styleClass="fo" text="1.capochi $1.0" /> 
+	
+		<Button fx:id="flavor2" onAction="#fla2" styleClass="fo" text="2.choco $1.2" />
+		<Button fx:id="flavor3" onAction="#fla3" styleClass="fo" text="3.mint $1.3" /> 
+		<Button fx:id="flavor4" onAction="#fla4" styleClass="fo" text="NO" />
+		
+		<styleClass>
+			<String fx:value = "hb"/>
+			<String fx:value = "vb" />
+		</styleClass>
+		
+	 
+	 </HBox>
+	  
+	
+	  
+	  
+	<Label text="EXTRA-SHOT: $1.2" /> 
+	<HBox styleClass="fi">
+		     
+  		
+		<Button fx:id="extra1" onAction="#ext1" styleClass="fo" text="YES" /> 
+		<Button fx:id="extra2" onAction="#ext2" styleClass="fo" text="NO" />
+	
+	</HBox>
+	
+	 	
+	    
+	<Label text="CREAM" /> 
+	<HBox styleClass="fi">
+		     
+  		
+		<Button fx:id="cream1" onAction="#cre1" styleClass="fo" text="1.heavy $0.5" /> 	
+		<Button fx:id="cream2" onAction="#cre2" styleClass="fo" text="2.half-half $0.4" />
+		<Button fx:id="cream3" onAction="#cre3" styleClass="fo" text="3.light $0.2" /> 
+		<Button fx:id="cream4" onAction="#cre4" styleClass="fo" text="NO" /> 
+	</HBox>
+	
+	<Label text="SUGAR: $0.1" /> 
+	<HBox styleClass="fi">	     
+  		
+		<Button fx:id="sugar1" onAction="#sug1" styleClass="fo" text="YES" /> 
+		<Button fx:id="sugar2" onAction="#sug2" styleClass="fo" text="NO" />
+	 
+	</HBox>
+	
+	<Label text="SEASON" /> 
+	<HBox styleClass="fi">
+		     
+  		
+		<Button fx:id="season1" onAction="#sea1" styleClass="fo" text="1.brown $0.2" /> 	
+		<Button fx:id="season2" onAction="#sea2" styleClass="fo" text="2.pepperoni $0.3" />
+		<Button fx:id="season3" onAction="#sea3" styleClass="fo" text="3.greentea $0.4" /> 
+		<Button fx:id="season4" onAction="#sea4" styleClass="fo" text="NO" /> 
+	</HBox>
+	
+	
+	
+	<Button fx:id="detail" onAction="#Detail" text="DETAIL" /> 
+	
+  	<Text fx:id="detail_t" />  
+  	
+	<HBox>
+	<Button fx:id="place" onAction="#Place" styleClass="dis" text="PLACE ORDER" /> 
+	<Button fx:id="cancel" onAction="#Cancel" styleClass="dis" text="CANCEL ORDER" />
+	<Button fx:id="pay" onAction="#Pay" text="PAY/NEXT CUSTOMER" /> 
+	
+	</HBox>
+	<Text fx:id="my_order" strokeLineCap="BUTT">Time Orders: 0, Total Cost: 0</Text>
+	
+   <TabPane prefHeight="96.0" prefWidth="323.0" tabClosingPolicy="UNAVAILABLE">
+     <tabs>
+       <Tab text="Untitled Tab 1">
+            <content>
+               <CheckBox mnemonicParsing="false" text="CheckBox" />
+            </content>
+         </Tab>
+       <Tab text="Untitled Tab 2" />
+     </tabs>
+   </TabPane>
+   
+	
+</VBox>
